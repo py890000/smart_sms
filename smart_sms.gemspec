@@ -19,16 +19,16 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ['lib']
 
-  s.add_dependency 'activerecord', ['>= 3.0', '< 5.0']
-  s.add_dependency 'activesupport', ['>= 3.0', '< 5.0']
+  s.add_dependency 'activerecord', ['>= 5.0.0.1', '< 5.0.1']
+  s.add_dependency 'activesupport', ['>= 5.0.0.1', '< 5.0.1']
 
   s.add_development_dependency 'bundler', ['>= 1.0.0']
   s.add_development_dependency 'rake', ['>= 0']
-  s.add_development_dependency 'rspec-rails', ['>= 3.0.0']
-  s.add_development_dependency 'rspec-its', ['>= 1.0.0']
+  s.add_development_dependency 'rspec-rails', ['>= 3.5.0']
+  s.add_development_dependency 'rspec-its', ['>= 1.2.0']
   s.add_development_dependency 'database_cleaner', ['~> 1.2.0']
   s.add_development_dependency 'webmock', ['~> 1.17.0']
-  s.add_development_dependency 'rails', ['>= 3.1.0']
+  s.add_development_dependency 'rails', ['>= 5.0.0.1']
   s.add_development_dependency 'sqlite3', ['>= 0']
   s.add_development_dependency 'pry', ['>= 0']
   s.add_development_dependency 'sdoc', ['>= 0']
